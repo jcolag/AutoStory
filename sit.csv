@@ -1,0 +1,758 @@
+# template;challenge;situation code
+
+# 1-A1 Fugitives imploring the powerful for help against their enemies
+[Protagonist] is a fugitive asking [Sidekick] for {sanctuary from,help against} the {persecution,pursuit} by [Antagonist].;Protagonist_3/Sidekick_5;1A1;
+[Protagonist] is a fugitive and must ask [Antagonist] for {sanctuary from,help against} the {persecution,pursuit} by worse antagonist, [Sidekick].;Protagonist_5/Antagonist_5;1A1;
+[Antagonist] is a fugitive asking [Protagonist] for {sanctuary from,help against} the {persecution,pursuit} by worse antagonist [Sidekick].;Antagonist_8/Protagonist_3;1A1;
+[Antagonist] is a fugitive asking [Sidekick] for {sanctuary from,help against} pursuit by [Protagonist].;Antagonist_5/Sidekick_5;1A1;
+[Sidekick] is a fugitive asking [Protagonist] for {sanctuary from,help against} the {persecution,pursuit} by common enemy [Antagonist].;Antagonist_4/Protagonist_4;1A1;
+[Sidekick] is a fugitive asking [Antagonist] for {sanctuary from,help against} a common enemy confused with [Protagonist].;Sidekick_3/Antagonist_8;1A1;
+
+# 1-A2 Assistance implored for the performance of a pious duty which has been forbidden
+[Protagonist] asks [Sidekick] for assistance in performing a pious duty blocked by [Antagonist].;Protagonist_5/Antagonist_5;1A2;
+[Protagonist] asks [Antagonist] for assistance in performing a pious duty blocked by common adversary [Sidekick].;Protagonist_5/Antagonist_5;1A2;
+[Antagonist] asks [Protagonist] for assistance in performing a pious duty blocked by common adversary [Sidekick].;Protagonist_5/Antagonist_5;1A2;
+[Sidekick] asks [Protagonist] for assistance in performing a pious duty blocked by [Antagonist].;Protagonist_5/Antagonist_5;1A2;
+[Antagonist] asks [Sidekick] for assistance in performing a task blocked by [Protagonist].;Protagonist_5/Antagonist_5;1A2;
+[Sidekick] asks [Antagonist] for assistance in performing a task blocked by [Protagonist].;Protagonist_5/Antagonist_5;1A2;
+
+# 1-A3 Appeals for refuge in which to die.
+[Protagonist] asks [Antagonist] for a respite.;Protagonist_8/Antagonist_3;1A3;
+[Protagonist] asks [Sidekick] for refuge from [Antagonist].;Protagonist_5/Sidekick_5;1A3;
+[Antagonist] asks [Protagonist] for a respite.;Protagonist_5/Antagonist_6;1A3;
+[Antagonist] asks [Sidekick] for refuge from [Protagonist].;Antagonist_5/Sidekick_5;1A3;
+[Sidekick] asks [Protagonist] for refuge.;Sidekick_5/Protagonist_5;1A3;
+[Sidekick] asks [Antagonist] for refuge.;Sidekick_5/Antagonist_4;1A3;
+
+# 1-A4 An appeal for knowledge.
+[Protagonist] appeals to [Antagonist] for needed information.;Protagonist_7/Antagonist_3;1A4;
+[Protagonist] appeals to [Sidekick] for needed information.;Protagonist_6/Sidekick_4;1A4;
+[Antagonist] appeals to [Protagonist] for needed information.;Antagonist_6/Protagonist_5;1A4;
+[Antagonist] appeals to [Sidekick] for needed information.;Antagonist_5/Sidekick_5;1A4;
+[Sidekick] appeals to [Protagonist] for needed information.;Sidekick_5/Protagonist_4;1A4;
+[Sidekick] appeals to [Antagonist] for needed information.;Sidekick_5/Antagonist_5;1A4;
+
+# 1-B1 Hospitality besought by the shipwrecked.
+[Protagonist], lost, seeks {directions,hospitality} from an incognito [Antagonist];Protagonist_5/Sidekick_3;1B1;
+[Protagonist], lost, seeks {directions,hospitality} from [Sidekick];Protagonist_5/Sidekick_5;1B1;
+An incognito[Antagonist], lost, seeks {directions,hospitality} from [Protagonist];Antagonist_5/Protagonist_3;1B1;
+[Antagonist], lost, seeks {directions,hospitality} from [Sidekick];Antagonist_5/Sidekick_5;1B1;
+[Sidekick], lost, seeks {directions,hospitality} from [Protagonist];Sidekick_5/Protagonist_3;1B1;
+[Sidekick], lost, seeks {directions,hospitality} from [Antagonist];Sidekick_5/Antagonist_5;1B1;
+
+###
+# 1-B2 Charity entreated by those cast off by their own people, whom they have disgraced.
+
+# 1-B3 Expiation: the seeking of pardon, healing or deliverance.
+[Protagonist] seeks {pardon,healing,forgiveness} from [Antagonist].;Protagonist_3/Antagonist_9;1B3;
+[Protagonist] seeks {pardon,healing,forgiveness} from [Sidekick].;Protagonist_5/Sidekick_5;1B3;
+[Antagonist] seeks {pardon,healing,forgiveness} from [Protagonist].;Antagonist_4/Protagonist_8;1B3;
+[Antagonist] seeks {pardon,healing,forgiveness} from [Sidekick].;Antagonist_5/Sidekick_5;1B3;
+[Sidekick] seeks {pardon,healing,forgiveness} from [Protagonist].;Sidekick_6/Protagonist_3;1B3;
+[Sidekick] seeks {pardon,healing,forgiveness} from [Antagonist].;Sidekick_5/Antagonist_4;1B3;
+
+# 1-B4 The surrender of a corpse, or relic, solicited.
+[Protagonist] asks [Antagonist] to surrender the plot device.;Protagonist_3/Antagonist_8;1B4;
+[Protagonist] asks [Sidekick] to surrender the plot device.;Protagonist_5/Sidekick_5;1B4;
+[Antagonist] asks [Protagonist] to surrender the plot device.;Antagonist_4/Protagonist_6;1B4;
+[Antagonist] asks [Sidekick] to surrender the plot device.;Antagonist_5/Sidekick_5;1B4;
+[Sidekick] asks [Protagonist] to surrender the plot device.;Sidekick_3/Protagonist_7;1B4;
+[Sidekick] asks [Antagonist] to surrender the plot device.;Sidekick_4/Antagonist_7;1B4;
+
+# 1-C1 Supplication of the powerful for those dear to the suppliant.
+[Protagonist] asks [Antagonist] to leave [Sidekick] to his or her own fate.;Protagonist_3/Antagonist_8;1C1;
+[Protagonist] asks [Sidekick] to leave [Antagonist] to his or her own fate.;Protagonist_5/Sidekick_5;1C1;
+[Antagonist] asks [Protagonist] to leave [Sidekick] to [AntagonistGenderPos] machinations.;Antagonist_4/Protagonist_6;1C1;
+[Antagonist] asks [Sidekick] to leave [Protagonist] to [AntagonistGenderPos] machinations.;Antagonist_5/Sidekick_5;1C1;
+[Sidekick] asks [Protagonist] to leave [Antagonist] to his or her own fate.;Sidekick_3/Protagonist_7;1C1;
+[Sidekick] asks [Antagonist] to leave [Protagonist] to his or her own fate.;Sidekick_8/Antagonist_2;1C1;
+
+# 1-C2 Supplication to a relative in behalf of another relative.
+[Protagonist] asks [Antagonist] to get involved with [Sidekick]'s fate.;Protagonist_3/Antagonist_8;1C2;
+[Protagonist] asks [Sidekick] to get involved with [Antagonist]'s fate.;Protagonist_5/Sidekick_5;1C2;
+[Antagonist] asks [Protagonist] to get involved with [Sidekick]'s fate.;Antagonist_4/Protagonist_6;1C2;
+[Antagonist] asks [Sidekick] to get involved with [Protagonist]'s fate.;Antagonist_5/Sidekick_5;1C2;
+[Sidekick] asks [Protagonist] to get involved with [Antagonist]'s fate.;Sidekick_3/Protagonist_7;1C2;
+[Sidekick] asks [Antagonist] to get involved with [Protagonist]'s fate.;Sidekick_8/Antagonist_2;1C2;
+
+###
+# 1-C3 Supplication to a mother's lover, on her behalf.
+[Protagonist] stands before [Antagonist] to beg for the plot device on behalf of [Sidekick].;;1C3;
+
+## an unfortunate, a threatener, a rescuer
+# 2-A Appearance of a rescuer to the condemned.
+[Protagonist] saves [Sidekick] from certain doom at [Antagonist]'s hands.;;2A;
+# 2-B1 A parent replaced on the throne by his children.
+[Antagonist] replaces [Protagonist] in authority, causing [Protagonist] to seek the help of [Sidekick].;;2B1;
+# 2-B2 Rescue by friends, or by strangers grateful for benefits or hospitality.
+After gratefully accepting hospitality, [Protagonist] rescues [Sidekick] from [Antagonist].;;2B2;
+
+## an avenger and a criminal
+# 3-A1 The avenging of a slain parent or ancestor.
+[Protagonist] {pursues,punishes} [Antagonist] for {insults,wrongs} against [Sidekick], who [Protagonist] owes a debt.;;3A1;
+# 3-A2 The avenging of a slain child or descendant.
+# 3-A3 Vengeance for a child dishonored.
+[Protagonist] {pursues,punishes} [Antagonist] for {insults,wrongs} {against,against the absent} [Sidekick], for whom [Protagonist] feels responsibility.;;3A2;
+# 3-A4 The avenging of a slain wife or husband.
+# 3-A5 Vengeance for the dishonor, or the attempted dishonoring, of a wife.
+# 3-A6 Vengeance for a mistress slain.
+# 3-A7 Vengeance for a slain or injured friend.
+[Protagonist] {pursues,punishes} [Antagonist] for {insults,wrongs} {against,against the absent} [Sidekick], with whom [Protagonist] has felt a partnership.;;3A4;
+# 3-A8 Vengeance for a sister seduced.
+[Protagonist] {pursues,punishes} [Antagonist] for swaying [Sidekick] away, with whom [Protagonist] has felt a partnership.;;3A8;
+# 3-B1 Vengeance for intentional injury or spoilation.
+[Protagonist] {pursues,punishes} [Antagonist] for some previous {neglect,insult,injury}.;;3B1;
+# 3-B2 Vengeance for having been dispoiled during absence.
+[Protagonist] {pursues,punishes} [Antagonist] for some {neglect,insult,injury} during [Protagonist]'s absence.;;3B2;
+# 3-B3 Revenge for an attempted slaying.
+[Protagonist] {pursues,punishes} [Antagonist] for some attempted {neglect,insult,injury} to {dismiss,harm} [Protagonist].;;3B3;
+# 3-B4 Revenge for a false accusation.
+[Protagonist] {pursues,punishes} [Antagonist] for falsely accusing [Protagonist] of some wrongdoing.;;3B4;
+# 3-B5 Vengeance for violation.
+[Protagonist] {pursues,punishes} [Antagonist] for some violation.;;3B5;
+# 3-B6 Vengeance for having been robbed of one's own.
+[Protagonist] {pursues,punishes} [Antagonist] for taking the plot device.;;3B6;
+# 3-B7 Revenge upon a whole sex for a deception by one.
+[Protagonist] vents hatred on a group exemplified by [Antagonist] due to some {neglect,insult,injury} inflicted on [Protagonist] by [Antagonist].;;3B1;
+# 3-C Professional pursuit of criminals.
+[Protagonist] {pursues,punishes} [Antagonist] for [Antagonist]'s crime.;
+[Protagonist] evades {pursuit,punishment} from [Antagonist] for an offense [Protagonist] {committed,didn't commit}.;
+
+## Avenging kinsman, guilty kinsman, remembrance of the victim, a relative of both
+# 4-A1 A father's death avenged upon a mother.
+# 4-A2 A mother avenged upon a father.
+# 4-B A brother's death avenged upon a son.
+# 4-B A brother's death avenged upon avenger's son.
+# 4-C A father's death avenged upon a husband.
+# 4-D A husband's death avenged upon a father.
+[Protagonist] {pursues,punishes} [Antagonist] to memorialize and recover from the loss of [Sidekick].;;4;
+
+## Punishment and fugitive
+# 5-A1 Fugitives from justice pursued for crimes, political offenses, etc.
+[Antagonist] {pursues} [Protagonist] over [Protagonist]'s {alleged crimes,political offenses,crimes}.;;5A1;
+# 5-A2 A fugitive is being wrongly pursued for brigandage, political offenses, etc.
+[Antagonist] wrongly {pursues} [Protagonist] over [Protagonist]'s {alleged crimes,political offenses,crimes}.;;5A2;
+# 5-B Pursued for a fault of love.
+[Antagonist] {pursues} [Protagonist] over a wrong [Protagonist] does out of love.;;5B;
+# 5-C
+[Protagonist] struggles against [Antagonist]'s power.;;5C;
+[Protagonist] uses [ProtagonistGenderPos] power to stop [Antagonist]'s rebellion.;;5C;
+# 5-D A pseudo-madman struggling against an alienist.
+[Antagonist] tries to alienate [Protagonist] from the community, causing [Protagonist] to doubt rationality.;;5D;
+
+## A vanquished power, a victorious enemy or a messenger
+# 6-A1 Defeat suffered.
+[Protagonist] suffers a shocking defeat at the hands of [Antagonist].;;6A1;
+# 6-A2 A fatherland destroyed or invaded.
+The community [Protagonist] takes pride in {strains,cracks,shatters,collapses} due to the actions of [Antagonist].;;6A2;
+# 6-A3 The fall of humanity.
+The community [Protagonist] takes pride in {strains,cracks,shatters,collapses} due to the actions of [Antagonist], with little outside help possible.;;6A2;
+# 6-A4 A natural catastrophe.
+The community [Protagonist] takes pride in {strains,cracks,shatters,collapses} due to a disaster.;;6A4;
+# 6-A5 A shipwreck.
+[Protagonist] becomes isolated from [ProtagonistGenderPos] community, due to the actions of [Antagonist].;;6A5;
+# 6-B A monarch overthrown.
+The leader of the community [Protagonist] takes pride in {leaves,is replaced,falls} due to the actions of [Antagonist].;;6B;
+# 6-C1 Ingratitude suffered.
+[Protagonist] reaches out to [Antagonist], but receives no gratitude.;;6C1;
+# 6-C2 The suffering of unjust punishment or enmity.
+[Protagonist] suffers the unjust {punishment,enmity} of [Antagonist].;;6C2;
+# 6-C3 An outrage suffered.
+[Protagonist] suffers a great outrage at the actions of [Antagonist].;;6C3;
+# 6-D1 Abandonment by a lover or a husband.
+[Protagonist] faces abandonment by [Sidekick], after a significant partnership.;;6D1;
+# 6-D2 Children lost by their parents.
+[Protagonist] loses contact with [Sidekick] despite feeling a responsibility to maintain the connection.;;6D2;
+
+## an Unfortunate, a Master or a Misfortune
+# 7-A The innocent made the victim of ambitious intrigue.
+[Protagonist] becomes the victim of [Antagonist]'s ambitious intrigue.;;7A;
+[Protagonist] becomes the victim of a misfortune.;;7A;
+# 7-B The innocent despoiled by those who should protect.
+[Sidekick] abuses [SidekickGenderPos] power over [Protagonist].;;7B;
+# 7-C1 The powerful dispossessed and wretched.
+After a period on the rise, [Protagonist] finds [ProtagonistGender]self in an insecure position.;;7C1;
+After a period on the rise, [Protagonist] finds [ProtagonistGender]self in an insecure position due to the actions of [Antagonist].;;7C1;
+# 7-C2 A favorite or an intimate finds himself forgotten.
+After a period on the rise, [Protagonist] finds [ProtagonistGender]self unpopular and forgotten.;;7C2;
+After a period on the rise, [Protagonist] finds [ProtagonistGender]self unpopular and forgotten due to the actions of [Antagonist].;;7C1;
+# 7-D The unfortunate robbed of their only hope.
+[Protagonist] is robbed of [ProtagonistGenderPos] only hope.;;7D;
+[Protagonist] is robbed of [ProtagonistGenderPos] only hope by [Antagonist].;;7D;
+
+## Tyrant and Conspirator
+# 8-A1 A conspiracy chiefly of one individual.
+[Protagonist] leads a conspiracy to foil [Antagonist]'s abusive actions.;;8A1;
+# 8-A2 A conspiracy of several.
+[Protagonist] joins a conspiracy to foil [Antagonist]'s abusive actions.;;8A2;
+# 8-B1 Revolt of one individual, who influences and involves others.
+[Protagonist] stands up against [Antagonist]'s abusive actions, inspiring [Sidekick] and others.;;8B2;
+# 8-B2 A revolt of many.
+[Protagonist] stands up among many against [Antagonist]'s abusive actions.;;8B2;
+
+## A bold leader, an object, an adversary.
+# 9-A Preparations for war.
+[Protagonist] prepares to struggle against [Antagonist] for the plot device.;;9A;
+# 9-B1 War.
+[Protagonist] leads a campaign against [Antagonist] for the plot device.;;9B1;
+# 9-B2 Combat.
+[Protagonist] struggles against [Antagonist] for the plot device.;;9B2;
+# 9-C1 Carrying off a desired person or object.
+[Protagonist] seizes the plot device to undermine [Antagonist].;;9C1;
+[Protagonist] sways [Sidekick]'s loyalties to undermine [Antagonist].;;9C1;
+# 9-C2 Recapture of a desired person or object.
+[Protagonist] retrieves the plot device to undermine [Antagonist].;;9C2;
+[Protagonist] regains the loyalty [Sidekick] to undermine [Antagonist].;;9C2;
+# 9-C3 Ridding oneself of an undesired person or object.
+[Protagonist] forces the plot device on [Antagonist] to undermine [Antagonist].;;9C3;
+[Protagonist] shifts [Sidekick]'s loyalties to [Antagonist] to undermine [Antagonist].;;9C3;
+# 9-D1 Adventurous expeditions.
+[Protagonist] undertakes an adventure to undermine [Antagonist].;;9D1;
+# 9-D2 Adventure undertaken for the purpose of obtaining a desired person or object.
+[Protagonist] undertakes an adventure to seize the plot device to undermine [Antagonist].;;9D2;
+[Protagonist] undertakes an adventure to sway [Sidekick]'s loyalties in order to undermine [Antagonist].;;9D2;
+# 9-D3 Adventure undertaken for the purpose of recapture of a desired person or object.
+[Protagonist] undertakes an adventure to retrieve the plot device to undermine [Antagonist].;;9D3;
+[Protagonist] undertakes an adventure to regain the loyalty [Sidekick] to undermine [Antagonist].;;9D3;
+# 9-D4 Adventure undertaken for the purpose of ridding oneself of an undesired person or object.
+[Protagonist] undertakes an adventure to force the plot device on [Antagonist] to undermine [Antagonist].;;9D4;
+[Protagonist] undertakes an adventure to shift [Sidekick]'s loyalties to [Antagonist] to undermine [Antagonist].;;9D4;
+# 9-E Dangerous or destructive adventure undertaken for the purpose of sport.
+[Protagonist] engages [Antagonist] directly, primarily for emotional reasons.;;9E;
+
+## The abductor, the abducted, the guardian.
+# 10-A Abduction of an unwilling woman.
+[Protagonist] {gains the services of,coerces,abducts} an unwilling [Sidekick].;;10A;
+# 10-B Abduction of a consenting woman.
+[Protagonist] {gains the services of,coerces,abducts} a willing [Sidekick].;;10B;
+# 10-C1 Recapture of the woman without the slaying of the abductor.
+[Protagonist] {gains the services of,coerces,abducts} [Sidekick] back from [Antagonist].;;10C1;
+# 10-C2 The same case, with the slaying of the ravisher.
+[Protagonist] {gains the services of,coerces,abducts} [Sidekick] back from [Antagonist] while harming [Antagonist].;;10C2;
+# 10-D1 Rescue of a captive friend.
+[Protagonist] rescues [ProtagonistGenderPos] ally [Sidekick] from [Antagonist]'s influence.;;10D1;
+# 10-D2 Of a child.
+[Protagonist] rescues [ProtagonistGenderPos] responsibility [Sidekick] from [Antagonist]'s influence.;;10D2;
+# 10-D3 Of a soul in captivity to error.
+[Protagonist] frees [Sidekick] from responsibility for an error.;;10D3;
+
+## Interrogator, seeker, and problem.
+# 11-A Search for a person who must be found on pain of death.
+[Protagonist] must find [Sidekick] to resolve an emergency.;;11A;
+# 11-B1 A riddle to be solved on pain of death.
+[Protagonist] must solve a riddle or puzzle to resolve an emergency.;Protagonist_5;11B1;
+# 11-B2 The same case, in which the riddle is proposed by the coveted woman.
+[Protagonist] must solve a riddle or puzzle to gain [Sidekick]'s help.;Protagonist_5;11B1;
+# 11-C1 Temptations suffered with the object of discovering his name.
+[Protagonist] must {identify,uncover the true identity of} [Sidekick].;;11C1;
+# 11-C2 Temptations offered with the object of ascertaining the sex.
+[Protagonist] must {discover,confirm,uncover} [Sidekick]'s affiliation.;;11C2;
+# 11-C3 Tests for the purpose of ascertaining the mental condition.
+[Protagonist] must {discover,confirm,uncover} [Sidekick]'s fitness.;;11C3;
+
+## A solicitor and an adversary who is refusing, or an arbitrator opposing parties.
+# 12-A Efforts to obtain an object by ruse or force.
+[Protagonist] {tricks,forces} [Antagonist] to give [ProtagonistGender] the plot device.;Protagonist_5/Antagonist_5;12A;
+[Antagonist] {tricks,forces} [Protagonist] to give [AntagonistGender] the plot device.;Protagonist_4/Antagonist_6;12A;
+# 12-B Endeavor by means of persuasive eloquence along.
+[Protagonist] persuades [Antagonist] to give [ProtagonistGender] the plot device.;Protagonist_5/Antagonist_5;12B;
+[Antagonist] persuades [Protagonist] to give [AntagonistGender] the plot device.;Protagonist_4/Antagonist_6;12B;
+# 12-C Eloquence with an arbitrator.
+[Protagonist] persuades [Antagonist] to give [ProtagonistGender] the plot device, via the arbitration of [Sidekick].;Protagonist_5/Antagonist_5;12B;
+[Antagonist] persuades [Protagonist] to give [AntagonistGender] the plot device, via the arbitration of [Sidekick].;Protagonist_6/Antagonist_4;12B;
+[Antagonist] persuades [Protagonist] to give [AntagonistGender] the plot device, via the arbitration of [Sidekick].;Antagonist_3/Protagonist_7;12B;
+[Antagonist] persuades [Sidekick] to give [AntagonistGender] the plot device, via the arbitration of [Protagonist].;Antagonist_4/Sidekick_6;12B;
+[Sidekick] persuades [Antagonist] to give [SidekickGender] the plot device, via the arbitration of [Protagonist].;Sidekick_6/Antagonist_4;12B;
+[Sidekick] persuades [Protagonist] to give [SidekickGender] the plot device, via the arbitration of [Antagonist].;Sidekick_1/Antagonist_9;12B;
+
+## A malevolent kinsman, a hated or reciprocally hating kinsman.
+# 13-A Hatred of brothers:
+[Protagonist] offends [Sidekick], despite a long relationship.;;13A1;
+# 13-A1 One brother hated by several.
+[Protagonist] offends [ProtagonistGenderPos] peer group, including [Sidekick], despite a long relationship.;;13A2;
+# 13-A2 Reciprocal hatred.
+[Protagonist] and [Sidekick] find mutual offense, despite a long relationship.;;13A3;
+# 13-A3 Hatred between relatives for reasons of self-interest.
+[Protagonist] and [Sidekick] endanger their relationship due to conflicting interests.;;13A4;
+# 13-B Hatred of father and son:
+[Protagonist] offends [Sidekick] by [ProtagonistGenderPos] use of [ProtagonistGenderPos] abilities.;;13B1;
+# 13-B1 Of the son for the father.
+[Protagonist] offends [Sidekick] by blindly accepting tradition.;;13B2;
+# 13-B2 Mutual hatred.
+# 13-B3 Hatred of daughter for father.
+# 13-C Hatred of grandfather for grandson.
+[Protagonist] and [Sidekick] find themselves unable to cooperate due to {philosophical,cultural} differences.;;13B2;
+# 13-D Hatred of father-in-law for son-in-law.
+# 13-E Hatred of mother-in-law for son-in-law.
+[Protagonist] finds [Sidekick]'s presence an intrusion;;13D;
+# 13-F1 Infanticide.
+# 13-F2 Child abuse.
+[Protagonist] {neglects,harms} [Sidekick]'s position GenderPos] responsibilities to [Sidekick].;;13F;
+
+## the preferred kinsman, the rejected kinsman, and the object.
+# 14-A1 Malicious rivalry of a brother.
+[Antagonist] takes out [AntagonistGenderPos] frustration at a {lack,loss} of status on [Protagonist].;;14A1;
+# 14-A2 Malicious rivalry of two brothers.
+[Protagonist] and [Sidekick] take out their frustrations on each other, despite common goals.;;14A2;
+# 14-A3 Rivalry of two brothers, with adultery on the part of one.
+[Antagonist] takes out [AntagonistGenderPos] frustration at [AntagonistGenderPos] dark secret on [Protagonist].;;14A1;
+# 14-A4 Rivalry of sisters.
+# 14-B1 Rivalry of father and son, for an unmarried woman.
+[Protagonist] and [Antagonist] struggle for the aid of independent agent [Sidekick].;;14B1;
+# 14-B2 Rivalry of father and son, for a married woman.
+[Protagonist] and [Antagonist] struggle for the aid of [Sidekick], despite [Sidekick]'s existing responsibilities to another party.;;14B1;
+# 14-B3 Case similar to the two foregoing, but in which the object is already the wife of the father.
+[Protagonist] and [Antagonist] struggle for the aid of [Sidekick], despite [Sidekick]'s existing responsibilities to [Antagonist].;;14B1;
+# 14-B4 Rivalry of mother and daughter.
+# 14-C Rivalry of cousins.
+# 14-D Rivalry of friends.
+
+## Two adulterers, betrayed husband or wife.
+# 15-A1 The slaying of a husband by or for a paramour.
+[Protagonist] tries to drive a wedge between [Sidekick] and [Antagonist].;;15A1;
+# 15-A2 The slaying of a trusting lover.
+[Protagonist] abandons [Sidekick].;;15A2;
+# 15-B Slaying of a wife for a paramour, and in self-interest.
+[Protagonist] pushes [Sidekick] away to operate independently.;;15B;
+
+## Madman and victim.
+# 16-A1 Kinsman slain in madness.
+# 16-A2 A lover slain in madness.
+[Protagonist] reacts toward [Sidekick] in anger.;;16A2;
+# 16-A3 Slaying or injuring of a person not hated or innocent bystander.
+[Protagonist], acting in anger, {offends,harms} an innocent bystander.;;16A3;
+# 16-B Disgrace brought upon oneself through madness.
+[Protagonist] makes a fool of [ProtagonistGender]self in a moment of anger, harming [ProtagonistGenderPos] reputation.;;16B;
+# 16-C Loss of loved ones brought about by madness.
+[Protagonist] frightens [Sidekick] away due to actions taken in [ProtagonistGenderPos] anger.;;16C;
+# 16-D Madness brought on by fear of hereditary insanity.
+[Protagonist] begins to act erratically due to fear of being destined for {incompetence,insanity};;16D;
+
+## The imprudent, the victim or the object lost.
+# 17-A1 Imprudence the cause of one's own misfortune.
+[Protagonist] acts imprudently, causing an extreme material loss.;;17A1;
+# 17-A2 Imprudence the cause of one's own dishonor.
+[Protagonist] acts imprudently, causing an extreme loss in status.;;17A2;
+# 17-B1 Curiosity the cause of one's own misfortune.
+[Protagonist] aggressively pursues curiosity, causing an extreme material loss.;;17B1;
+# 17-B2 Loss of the possession of a loved one, through curiosity.
+[Protagonist] acts imprudently, causing the loss of [Sidekick].;;17B2;
+# 17-C1 Curiosity the cause of death or misfortune to others.
+[Protagonist] aggressively pursues curiosity, causing an extreme material loss to [Sidekick].;;17C1;
+# 17-C2 Imprudence the cause of a relative's death.
+# 17-C3 Imprudence the cause of a lover's death.
+[Protagonist] acts imprudently, causing [ProtagonistGender] to lose [Sidekick].;;17C2;
+# 17-C4 Credulity the cause of kinsman's death.
+[Protagonist]'s {gullibility,obsessive beliefs} causes [ProtagonistGender] to lose [Sidekick].;;17C4;
+# 17-C5 Imprudence the cause of an innocent's death.
+[Protagonist] acts imprudently, causing serious loss to an innocent bystander.;;17B2;
+
+## The lover, the loved, and the revealer.
+# 18-A1 Discovery that one has married one's mother.
+# 18-A2 Discovery that one has had one's sister as mistress.
+# 18-B1 Discovery that one has married one's sister.
+[Protagonist] begins communication with an apparently new associate to {assist,substitute for,replace} [Sidekick], unaware that it is [Sidekick].;;18A1;
+# 18-B2 The same case, in which the crime has been villainously planned by a third person.
+[Protagonist] is manipulated into communicating with an apparently new associate to {assist,substitute for,replace} [Sidekick], unaware that it is [Sidekick].;;18B2;
+# 18-B3 Being upon the point of taking one's sister, unknowingly, as a mistress.
+# 18-C Being upon the point of violating, unknowingly, a daughter.
+# 18-D1 Being upon the point of committing an adultery, unknowingly.
+[Protagonist] works with [Sidekick], fully aware that [Sidekick] also works with [Antagonist].;;18D1;
+# 18-D2 Adultery committed unknowingly.
+[Protagonist] works with [Sidekick], unaware that [Sidekick] also works with [Antagonist].;;18D2;
+
+## The slayer, the unrecognized victim.
+# 19-A1 Being upon the point of slaying a daughter unknowingly, by command of a divinity or an oracle.
+# 19-A2 Through political necessity.
+[Protagonist] considers abandoning [Sidekick] due to a prediction of necessity.;;19A1;
+# 19-A3 Through a rivalry in love.
+# 19-A4 Through hatred of the lover of the unrecognized daughter.
+[Protagonist] considers abandoning [Sidekick] due to [Sidekick]'s unpleasant associations.;;19A3;
+# 19-B1 Being upon the point of killing a son unknowingly.
+[Protagonist] considers a course of action which will alienate [Sidekick].;;19B1;
+# 19-B2 The same as case B1, strengthened by Machiavellian instigations.
+[Protagonist] considers a course of action which will unknowingly alienate [Sidekick], due to secret encouragement from [Antagonist].;;19B2;
+# 19-B3 The same as case B2, intermixed with hatred of kinsmen.
+[Protagonist] considers a course of action designed to alienate [Sidekick].;;19B3;
+# 19-B4 The same as case B1, having been provoked to do so.
+[Protagonist] considers a course of action which will alienate [Sidekick] due to provocation from [Antagonist].;;19B4;
+# 19-C Being upon the point of killing one's brother unknowingly:
+# 19-C1 Brothers slaying in anger.
+[Protagonist] considers abandoning [Sidekick] out of anger.;;19C1;
+# 19-C2 A sister slaying through professional duty.
+[Protagonist] considers abandoning [Sidekick] out of some responsibility.;;19C2;
+# 19-D Slaying of a mother unrecognized.
+[Protagonist] {insults,abandons,harms} [Sidekick] without realizing the extent of [Sidekick]'s help.;;19D;
+# 19-E1 A father slain unknowingly through Machiavellian advice.
+[Protagonist] {insults,abandons,harms} [Sidekick] without realizing the extent of [Sidekick]'s help, due to the machinations of [Antagonist].;;19E1;
+# 19-E2 The simple slaying of a father unrecognized.
+# 19-E3 The same case reduced from murder to simple insult.
+# 19-F1 A grandfather slain unknowingly, in vengeance and through instigation.
+[Protagonist] {insults,abandons,harms} [Sidekick] without realizing the extent of [Sidekick]'s help, due to a sleight by [Sidekick] exaggerated by [Antagonist].;;19F1;
+# 19-F2 Slain involuntarily.
+# 19-F3 A father-in-law killed involuntarily.
+# 19-G1 Involuntary killing of a loved woman.
+[Protagonist] accidentally {neglects,insults,harms} [Sidekick].;;19G1;
+# 19-G2 Upon the point of killing a lover unrecognized.
+[Protagonist] verges on {insulting,abandoning,harming} [Sidekick] without realizing the extent of [Sidekick]'s help.;;19G2;
+# 19-G3 Failure to rescue an unrecognized son.
+[Protagonist] {fails,neglects} to help [Sidekick], in part due to failing to recognize the extent of [Sidekick]'s help.;;19G3;
+
+## The hero, the ideal, the creditor or the person or things sacrificed.
+# 20-A1 Sacrifice of life for the sake of one's word.
+[Protagonist] sacrifices the plot device to [Antagonist] for the sake of a promise.;;20A1;
+# 20-A2 Life sacrificed for the success of one's people.
+# 20-A3 Life sacrificed for the happiness of one's people.
+[Protagonist] sacrifices the plot device to [Antagonist] for the {survival,success,happiness} of [ProtagonistGenderPos] affiliates.;;20A2;
+# 20-A4 Life sacrificed in filial piety.
+# 20-A5 Life sacrificed for the sake of one's faith.
+[Protagonist] sacrifices the plot device to [Antagonist] for the sake of principle.;;20A4;
+# 20-B1 Both love and life sacrificed for the sake of a cause.
+[Protagonist] sacrifices the plot device and the companionship of [Sidekick] to [Antagonist] for the sake of the cause.;;20B1;
+# 20-B2 Love sacrificed to interests of state.
+[Protagonist] sacrifices the help of [Sidekick] to [Antagonist] for the sake of a principle.;;20B2;
+# 20-C Sacrifice of well-being to duty.
+[Protagonist] commits to the principle even at the expense of person {health,safety}.;;20C;
+# 20-D The ideal of honor sacrificed to the ideal of faith.
+[Protagonist] sacrifices [ProtagonistGenderPos] status for the sake of principle.;;20D;
+
+## The hero, the kinsman, the creditor or the person or thing sacrificed.
+# 21-A1 Life sacrificed for that of a relative or loved one.
+# 21-A2 Life sacrificed for the happiness of a relative or loved one.
+[Protagonist] sacrifices [ProtagonistGenderPos] status for the sake of [Sidekick].;;21A1;
+# 21-B1 Ambition sacrificed for the happiness of a parent.
+# 21-B2 Ambition sacrificed for the life of a parent.
+# 21-C1 Love sacrificed for the sake of a parent's life.
+# 21-C2 For the happiness of one's child.
+# 21-C3 For the happiness of a loved one.
+[Protagonist] postpones goals to tend to [Sidekick]'s {happiness,health,life}.;;21B2;
+# 21-C4 The same as 2, but caused by unjust laws.
+[Protagonist] postpones goals to tend to [Sidekick]'s {happiness,health,life} being affected by [Antagonist]'s actions.;;21C4;
+# 21-D1 Life and honor sacrificed for the life of a parent or loved one.
+# 21-D2 Modesty sacrificed for the life of a relative or a loved one.
+[Protagonist] sacrifices [ProtagonistGenderPos] status to tend to [Sidekick]'s {happiness,health,life}.;;21B2;
+
+## The lover, the object of the fatal passion, and the person or thing sacrificed.
+# 22-A1 Religious vows of chastity broken for passion.
+# 22-A2 A vow of purity broken.
+[Protagonist] violates a principle in a moment of desperation.;;22A1;
+# 22-A3 Respect for a priest destroyed.
+[Protagonist] loses status due to violation of a principle.;;22A3;
+# 22-A4 Power ruined by a passion.
+[Protagonist] has a setback due to acting in an agitated state.;;22A4;
+# 22-A5 Ruin of mind, health, and life.
+[Protagonist] loses all sight of goals due to a distracting obsession.;;22A5;
+# 22-A6 Passion gratified at the price of life.
+[Protagonist] has a setback due to a serious obsession.;;22A6;
+# 22-A7 Ruin of fortunes, lives, and honor.
+[Protagonist]'s obsession leads to a loss of all credibility and status.;;22A7;
+# 22-B Temptations (see 12) destroying the sense of duty, pity, etc.
+An obsession tempts [Protagonist] into abandoning [ProtagonistGenderPos] goals.;;22B;
+# 22-C1 Destruction of honor, fortune, and life by erotic vice.
+# 22-C2 The same effect produced by any other vice.
+[Protagonist]'s obsession causes {frustration,neglect,loss,harm} to [Sidekick].;;22C1;
+
+## The hero, the beloved victim, and the necessity for the sacrifice.
+# 23-A1 Necessity for sacrificing a daughter in the public interest.
+[Protagonist] considers abandoning [Sidekick] in a time of need for some common good.;;23A1;
+# 23-A2 Duty of sacrificing her in fulfillment of a vow to God.
+# 23-B1 Duty of sacrificing, under the same circumstances, one's father.
+# 23-B3 Duty of sacrificing, under the same circumstances, one's husband.
+[Protagonist] considers abandoning [Sidekick] in a time of need to fulfill a vow to an authority figure.;;23A2;
+# 23-B4 Duty of sacrificing a son-in-law for the public good.
+# 23-B5 Same case under the sake of reputation.
+[Protagonist] considers abandoning [Sidekick] in a time of need for the sake of [Protagonist]'s reputation.;;23A2;
+# 23-B6 Duty of contending with a brother-in-law for the public good.
+# 23-B7 Duty of contending with a friend.
+[Protagonist] contends with duty and [ProtagonistGenderPos] to [Sidekick].
+
+## The superior rival, the inferior rival, and the object
+# 24-A Masculine rivalries.
+# 24-A1 Of a mortal and immortal.
+# 24-A2 Of two divinities of unequal power.
+# 24-A3 Of a magician and an ordinary man.
+[Protagonist] feels overwhelmed struggling against [Antagonist] for the plot device.;;24A1;
+[Protagonist] feels overwhelmed struggling against [Antagonist] for [Sidekick]'s fate.;;24A1;
+# 24-A4 Of conqueror and conquered.
+# 24-A5 Of victor and vanquished.
+Having managed to coerce [Antagonist] into giving [ProgatonistGender] the plot device, [Protagonist] deals with the possibility of retribution.;;24A4;
+Having managed to coerce [Antagonist] into giving up on {manipulating,controlling} [Sidekick]'s fate, [Protagonist] deals with the possibility of retribution.;;24A4;
+# 24-A6 Of a master and a banished man.
+Thinking [ProtagonistGender] gone, [Antagonist] is surprised to need to struggle with [Protagonist] again for the plot device.;;24A6;
+Thinking [ProtagonistGender] gone, [Antagonist] is surprised to need to struggle with [Protagonist] again for [Sidekick]'s fate.;;24A6;
+# 24-A7 Of usurper and subject.
+[Protagonist] struggles with [Antagonist] for the plot device after [Antagonist] has gained authority.;;24A7;
+[Protagonist] struggles with [Antagonist] for the fate of [Sidekick] after [Antagonist] has gained authority.;;24A7;
+# 24-A8 Of Suzerian King and Vassal Kings.
+[Protagonist], having gained some limited authority, struggles with [Antagonist] for the plot device after [Antagonist] has gained greater authority.;;24A8;
+[Protagonist], having gained some limited authority, struggles with [Antagonist] for the fate of [Sidekick] after [Antagonist] has gained greater authority.;;24A8;
+# 24-A9 Of a powerful person and upstart.
+# 24-A10 Of rich and poor.
+[Protagonist] must deal with the rivalry of upstart [Antagonist] for the plot device.;;24A9;
+[Protagonist] challenges [Antagonist] for the plot device.;Protagonist_5/Antagonist_5;
+Powerful [Antagonist] defends against upstart [Sidekick] for [Protagonist]'s fate.;Antagonist_3/Sidekick_7;24A9;
+Upstart [Antagonist] challenges powerful [Sidekick] for [Protagonist]'s fate.;Antagonist_7/Sidekick_3;24A9;
+
+# 24-A11 Of an honored man and a suspected one.
+[Protagonist] struggles with accusations of a crime [ProtagonistGender] {didn't commit,committed} while struggling against an honored [Antagonist] for the plot device.;;24A11;
+[Protagonist] struggles with accusations of a crime [ProtagonistGender] {didn't commit,committed} while struggling against an honored [Antagonist] for control over [Sidekick]'s fate.;;24A11;
+# 24-A12 Rivalry of two who are almost equal.
+[Protagonist] challenges [Antagonist] for the plot device.;Protagonist_5/Antagonist_6;;24A12
+[Antagonist] challenges [Sidekick] for [Protagonist]'s fate.;Antagonist_6/Sidekick_5;;24A12
+# 24-A13 Rivalry of equals, one of whom in the past has been proved guilty of adultery.
+[Protagonist] challenges [Antagonist] for the plot device, but [Antagonist] has a dark secret.;Protagonist_5/Antagonist_7;;24A13
+[Protagonist] challenges [Antagonist] for the plot device, but [Protagonist] has a dark secret.;Protagonist_6/Antagonist_5;;24A13
+[Antagonist] challenges [Sidekick] for [Protagonist]'s fate, but [Antagonist] has a dark secret.;Antagonist_7/Sidekick_5;;24A13
+[Antagonist] challenges [Sidekick] for [Protagonist]'s fate, but [Sidekick] has a dark secret.;Antagonist_5/Sidekick_7;;24A13
+
+# 24-A14 Of a man who is loved and one who has not the right to love.
+[Protagonist] tries to win [Sidekick]'s loyalty, even though [Sidekick] is loyal to [Antagonist].;;24A14;
+# 24-A15 Of the two (or more) successive husbands of a divorcee.
+After [Sidekick] has abandoned both of them, [Protagonist] and [Antagonist] struggle to win [Sidekick]'s loyalty back.;;24A15;
+# 24-B Feminine rivalries.
+# 24-B1 Of a sorceress and an ordinary woman.
+# 24-B2 Of victor and prisoner.
+# 24-B3 Of a queen and slave.
+# 24-B4 Of lady and servant.
+[Protagonist] struggles against [Antagonist] for the plot device, despite having a duty to [Antagonist].;;24B4;
+[Protagonist] struggles against [Antagonist] to determine [Sidekick]'s future, despite having a duty to [Antagonist].;;24B4;
+# 24-B5 Of a lady and a woman of humbler position.
+[Protagonist] struggles against [Antagonist] for the plot device, despite [Antagonist] having a much stronger position.;;24B5;
+[Protagonist] and [Sidekick] struggle against [Antagonist] for the plot device, despite [Antagonist] having a much stronger position.;;24B5;
+# 24-B6 Of a lady and two women of humbler class.
+[Protagonist] struggles against [Antagonist] to guide [Sidekick]'s fate, despite [Antagonist] having a much stronger position.;;24B5;
+# 24-B7 Rivalry of two who are almost equals, complicated by the abandonment of one.
+[Protagonist] struggles against [Antagonist] for the plot device, despite [Sidekick] abandoning [Protagonist].;;24B5;
+[Protagonist] struggles against [Antagonist] to guide [Sidekick]'s fate, despite [Sidekick] abandoning [Protagonist].;;24B5;
+# 24-B8 Rivalry between the memory or an ideal (that of a superior woman) and a vassal of her own.
+[Protagonist] challenges the idealized memory of [Antagonist].;Protagonist_5;
+[Antagonist] challenges the idealized image of [Protagonist].;Antagonist_7;
+
+# 24-B9 Rivalry of mortal and immortal.
+# 24-C Double rivalry (A loves B, who loves C, who loves D).
+[Protagonist] pursues [Antagonist] while [Antagonist] pursues [Sidekick] and [Sidekick] pursues an outside goal.;;24C;
+# 24-D Oriental rivalries (Hindu polygamy).
+# 24-D1 Rivalry of two immortals.
+# 24-D2 Of two mortals.
+[Protagonist] and [Sidekick] come into conflict over the plot device.;;24D3;
+# 24-D3 Of two lawful wives.
+[Protagonist] and [Sidekick] come into conflict over the attentions of a group.;;24D3;
+
+## A deceived husband or wife and two adulterers.
+###
+# 25-A A mistress betrayed:
+# 25-A1 For a young woman.
+# 25-A2 For a young wife.
+# 25-A3 For a girl.
+[Protagonist] feels betrayed when [Sidekick] associates with other people.;;25A;
+# 25-B A wife betrayed:
+# 25-B1 For a slave, who does not love in return.
+[Sidekick] feels betrayed when [Protagonist] associates with a newcomer who has no loyalties or interest in [Protagonist]'s goals.;;25B1;
+# 25-B2 For debauchery.
+[Sidekick] appears to tire of their work together, leading [Protagonist] to feel betrayed.;;25B2;
+# 25-B3 For a married woman.
+[Sidekick] becomes concerned when [Protagonist] appears to tire of their work and consider alternate goals.;;25B3;
+# 25-B4 With the intention of bigamy.
+[Sidekick] becomes concerned when [Protagonist] appears to consider picking up a secondary cause and possibly additional associates.;;25B4;
+# 25-B5 For a young girl, who does not love in return.
+# 25-B6 A wife envied by a young girl who is in love with her husband.
+[Sidekick] grows jealous that [Protagonist] has the stronger convictions.;;25B6;
+# 25-B7 By a courtesan.
+[Protagonist] grows concerned about [Sidekick]'s apparently mercenary motivations.;;25B7;
+# 25-B8 Rivalry between a lawful wife who is antipathetic and a mistress who is congenial.
+When [Sidekick]'s commitment to the cause flags, [Protagonist]'s contact with a newcomer spurs [Sidekick]'s motivation.;;25B8;
+# 25-B9 Between a generous wife and an impassioned girl.
+[Protagonist] worries that [ProtagonistGenderPos] efforts will be insufficient as compared to [Sidekick]'s passion.
+# 25-C1 An antagonistic husband sacrificed for a congenial lover.
+[Sidekick] considers siding with [Antagonist] after [Protagonist] treats [Sidekick] badly.;;25C1;
+# 25-C2 A husband, believed to be lost, forgotten for a rival.
+[Protagonist] thought to {have left,been lost}, [Sidekick] considers moving on to different goals.;;25C2;
+# 25-C3 A commonplace husband sacrificed for a sympathetic lover.
+[Protagonist]'s commitment wavers when encountering a sympathetic associate.;;25C3;
+# 25-C4 A good husband betrayed for an inferior rival.
+[Protagonist] feels betrayed when [Sidekick] sides with [Antagonist].;;25C4;
+# 25-C5 For a grotesque rival.
+# 25-C6 For an odious rival.
+[Protagonist] worries that [Sidekick] may be siding with [Antagonist].;;25C6;
+# 25-C7 For a commonplace rival, by a perverse wife.
+[Protagonist] worries that [ProtagonistGenderPos] eccentricities are alienating [Sidekick].;;25C7;
+# 25-C8 For a less handsome, but useful rival (with comic false suspicions).
+When [Sidekick] associates with a newcomer, [Protagonist] grows jealous, not realizing the relationship is innocent and utilitarian.;;25C8;
+# 25-D1 Vengeance of a deceived husband.
+[Protagonist] {insults,rejects,wrongs,harms} [Sidekick], thinking that [Sidekick] has betrayed [ProtagonistGender].;;25D1;
+# 25-D2 Jealousy sacrificed out of pity.
+While [Protagonist] feels jealousy regarding [Sidekick]'s actions, [ProtagonistGender] puts those feelings aside for the sake of duty.;;25D2;
+# 25-E A husband persecuted by a rejected rival.
+[Antagonist] harries [Protagonist] after being rejected by [Sidekick].;;25E;
+
+## The lover and the betrayed.
+# 26-A1 A mother in love with her son.
+# 26-A2 A daughter in love with her father.
+# 26-A3 Violation of a daughter by her father.
+# 26-B1 A woman enamored of her stepson.
+[Protagonist] loses [ProtagonistGenderPos] objectivity when interacting with [Sidekick], putting [SidekickGender] before the goal.;;26B1;
+# 26-B2 A woman and her stepson enamored of each other.
+[Protagonist] and [Sidekick] lose objectivity towards one another, putting each other before their goals.;;26B2;
+# 26-B3 A woman being the mistress, at the same time, of a father and son, both of whom accept the situation.
+[Sidekick] assists both [Protagonist] and [Antagonist], to everyone's mutual agreement.;;26B3;
+# 26-C1 A man becomes the lover of his sister-in-law.
+[Antagonist] attempts to recruit [Sidekick] away from [Protagonist].;Antagonist_4/Sidekick_6;26C1;
+# 26-C2 The man alone becomes enamored.
+[Protagonist] appears to become obsessed with the plot device.;;26C2;
+###
+# 26-C3 A brother and sister in love with each other.
+# 26-D1 A man enamored of another man, who yields.
+# 26-D2 A woman enamored of a bull.
+
+## The discoverer and the guilty one.
+# 27-A1 Discovery of a mother's shame.
+# 27-A2 Discovery of a father's shame.
+[Sidekick] discovers a dark secret that [Protagonist] harbors.;;27A1;
+# 27-A3 Discovery of a daughter's dishonor.
+[Protagonist] discovers a dark secret that [Sidekick] harbors.;;27A1;
+# 27-B1 Discovery that one's wife has been violated before marriage... since the marriage.
+[Protagonist] discovers that [Sidekick]'s loyalties have not been consistent.;;27B1;
+[Protagonist] discovers that [Sidekick]'s loyalties have failed.;;27B1;
+# 27-B2 That she previously committed a fault.
+[Protagonist] discovers that [ProtagonistGender] has committed a serious fault.;;27B2;
+# 27-B3 Discovery that one's wife has formerly been a prostitute.
+# 27-B4 Discovery of dishonor on the part of a lover.
+[Protagonist] discovers that [Sidekick] has committed a serious fault.;;27B4;
+# 27-B5 Discovery that one's mistress, formerly a prostitute, has returned to her old life.
+[Protagonist] discovers that [Sidekick] has fallen under the sway of [Antagonist].;;27B5;
+# 27-B6 Discovery that one's lover is a scoundrel, or that one's mistress is a woman of bad character... The same discovery concerning a so-called king.
+# 27-B7 The same discovery concerning one's wife.
+[Protagonist] discovers that [Sidekick] is not who [SidekickGender] claims to be.;;27B6;
+[Sidekick] discovers that [Protagonist] is not who [ProtagonistGender] claims to be.;;27B6;
+# 27-C Discovery that one's son is an assassin.
+[Protagonist] discovers that [Sidekick] is working to undermine their principles.;;27C;
+# 27-D1 Duty of punishing a son who is a traitor to country. A brother who is a traitor to his party.
+# 27-D2 Duty of punishing a son condemned under a law which the father has made.
+# 27-D3 Duty of punishing a son believed to be guilty.
+[Protagonist] struggles with the need to punish [Sidekick] for undermining their principles.;;27D1;
+# 27-D4 Duty of sacrificing, to fulfill a vow of tyrannicide, a father until then unknown.
+[Protagonist] attempts to stop [Antagonist]'s actions, only to discover that they share an important bond.;;27D4;
+# 27-D5 Duty of punishing a brother who is an assassin.
+# 27-D6 Duty of punishing one's mother to avenge one's father.
+[Protagonist] feels driven to disrupt [Antatonist]'s activity due to {insult,harm} done to [Sidekick].;;27D6;
+
+## Two lovers and an obstacle.
+###
+# 28-A1 Marriage prevented by inequality of rank.
+# 28-A2 Inequality of fortune an impediment to marriage.
+[Protagonist] and [Sidekick] find it hard to work together due to their difference in status.;;28A2;
+# 28-B Marriage prevented by enemies and contingent obstacles.
+[Protagonist] and [Sidekick] find it difficult to work together due to [Antagonist] driving a wedge between them.;;28B;
+# 28-C1 Marriage forbidden on account of the young woman's previous betrothal to another.
+[Protagonist] has difficulty working with [Sidekick] after learning that [Sidekick] has previously cooperated with [Antagonist].
+# 28-C2 The same case, complicated by an imaginary marriage of the beloved object.
+[Protagonist] has difficulty working with [Sidekick] after wrongly imagining that [Sidekick] has previously cooperated with [Antagonist].
+# 28-D1 A free union impeded by the opposition of relatives.
+# 28-D2 Family affection disturbed by the parents-in-law.
+[Protagonist] and [Sidekick] find it hard to work together due to outside interference of {friends,family}.;;28A2;
+# 28-E By the incompatibility of temper of the lovers.
+[Protagonist] and [Sidekick] find it hard to work together due to their difference in temperments.;;28A2;
+# 28-F Love
+
+## The beloved enemy, the lover, and the hater.
+# 29-A The loved one hated by the kinsman of the lover.
+# 29-A1 The lover pursued by the brothers of his beloved.
+# 29-A2 The lover hated by the family of his beloved.
+# 29-A3 The lover is the son of a man hated by the kinsmen of his beloved.
+# 29-A4 The beloved is an enemy of the party of the woman who loves him.
+# 29-B1 The lover is the slayer of the father of his beloved.
+# 29-B2 The beloved is the slayer of the father of the beloved.
+# 29-B3 The beloved is the slayer of the brother of her lover.
+# 29-B4 The beloved is the slayer of the husband of the woman who loves him, but who has previously sworn to avenge that husband.
+# 29-B5 The same case, except that a lover, instead of a husband, has been slain.
+# 29-B6 The beloved is the slayer of a kinsman of the woman who loves him.
+# 29-B7 The beloved is the daughter of the slayer of her lover's father.
+
+## An ambitious person, a thing coveted, and an adversary.
+# 30-A1 Ambition watched and guarded against by a kinsman or patriot friend or by a brother.
+# 30-A2 By a relative or person under obligation.
+# 30-A3 By partisans.
+# 30-B Rebellious ambition (akin to #8).
+# 30-C1 Ambition and covetousness heaping crime upon crime.
+# 30-C2 Parricidal ambition.
+
+## A mortal and an immortal.
+# 31-A1 Struggle against a deity
+# 31-A2 Strife with the believers in a god.
+# 31-B1 Controversy with a deity.
+# 31-B2 Punishment for contempt of a god.
+# 31-B3 Punishment for pride before a god.
+# 31-B4 Presumptuous rivalry with a god.
+# 31-B5 Imprudent rivalry with a deity.
+
+## The jealous one, the object of whose possession he is jealous, the supposed accomplice, and the cause or the author of the mistake.
+# 32-A1 The mistake originates in the suspicious mind of the jealous one.
+[Protagonist] suddenly struggles with jealousy of [Antagonist]'s position.;;32A1;
+# 32-A2 Mistaken jealousy aroused by a fatal chance.
+																																																																																																								
+# 32-A3 Mistaken jealousy of a love which is purely platonic.
+[Protagonist] mistakes [Sidekick]'s admiration for one of [Antagonist]'s better traits for a suggestion of loyalty.;;32A3;
+# 32-A4 Baseless jealousy aroused by malicious rumors.
+# 32-B1 Jealousy suggested by a traitor who is moved by hatred.
+# 32-B2 The same case, in which the traitor is moved by self-interest.
+# 32-B3 The same case, in which the traitor is moved by jealousy and self-interest.
+# 32-C1 Reciprocal jealousy suggested to husband and wife by a rival.
+# 32-C2 Jealousy suggested to the husband by a woman who is in love with him.
+# 32-C3 Jealousy suggested to the wife by a second rival.
+# 32-C4 Jealousy suggested to a happy lover by a deceived husband.
+
+## The mistaken one, the victim of the mistake, the cause or author of the mistake, and the guilty person.
+# 33-A1 False suspicion where faith is necessary.
+# 33-A2 False suspicion (in which the jealousy is not without reason) of a mistress.
+# 33-A3 False suspicions aroused by a misunderstood attitude of a loved one.
+# 33-A4 By indifference.
+# 33-B1 False suspicions drawn upon oneself to save a friend.
+# 33-B2 They fall upon the innocent husband of the guilty one.
+# 33-B3 The same case as B2, but in which the innocent had a guilty intention or in which the innocent believes himself guilty.
+# 33-B4 A witness to a crime, in the interest of a loved one, lets accusation fall upon the innocent.
+# 33-C1 The accusation is allowed to fall upon an enemy.
+# 33-C2 The error is provoked by an enemy.
+# 33-C3 The mistake is directed against the victim by her brother.
+# 33-D1 False suspicion thrown by the real culprit upon one of his enemies.
+# 33-D2 Thrown by the real culprit upon the second victim against whom he has plotted from the beginning.
+# 33-D3 False suspicion thrown upon a rival.
+# 33-D4 Thrown upon one innocent, because he has refused to be an accomplice.
+# 33-D5 Thrown by a deserted mistress upon a lover who left her because he would not deceive her husband.
+# 33-D6 Struggle to rehabilitate oneself and to avenge a judicial error purposely caused.
+
+## The culprit, the victim or the sin, and the interrogator.
+# 34-A1 Remorse for an unknown crime.
+[Protagonist] tries to overcome remorse for a feeling of having done something horrible.;;34A1;
+# 34-A2 Remorse for parricide.
+[Protagonist] tries to overcome remorse for abandoning [ProtagonistGenderPos] principles.;;34A2;
+# 34-A3 Remorse for an assassination... for a judicial murder.
+[Protagonist] tries to overcome remorse for {insult,injury} to someone for the common good.;;34A3;
+# 34-A4 Remorse for the murder of husband or wife.
+[Protagonist] tries to overcome remorse for abandoning [Sidekick] in [SidekickGenderPos] time of need.;;34A4;
+# 34-B1 Remorse for a fault of love.
+[Protagonist] tries to overcome remorse for a wrong committed out of love.;;34B1;
+# 34-B2 Remorse for adultery.
+[Protagonist] tries to overcome remorse for keeping a dark secret.;;34B2;
+
+## The seeker and the one found.
+[Protagonist] searches out the lost [Sidekick].;;35;
+[Sidekick] searches out the lost [Protagonist].;;35;
+
+## A kinsman slain, a kinsman spectator, and an executioner.
+# 36-A1 Witnessing the slaying of kinsmen, while powerless to prevent it.
+[Protagonist] hopes to intervene in the {insult,harm} of [Sidekick], but may be powerless to prevent it.;;36A1;
+# 36-A2 Helping to bring misfortune upon one's people through professional secrecy.
+[Protagonist]'s need for secrecy brings misfortune upon [Sidekick] and their peer group.;;36A2;
+# 36-B Divining the death of a loved one.
+# 36-C Learning of the death of a kinsman or ally.
+[Protagonist] {becomes aware,learns} of {an insult,harm} inflicted on [Sidekick].;;36B;
+# 36-D Relapse in primitive baseness, through despair on learning of the death of a loved one.
+Despairing over {an insult,harm} inflicted on [Sidekick], [Protagonist] falls into a {withdrawn,slovenly,childish,primitive,barbaric,argumentative,violent} state.;;36D;
+
+# 37-A Thinking someone is rich when he's poor.
+[Protagonist] is mistaken by [Sidekick] as someone at the opposite end of the socio-economic spectrum.;;37A;
+# 37-B The wrong man caught in the web of fear.
+#[Protagonist] is suddenly drawn into an alienating situation due to an error.;;37B;
+# 37-C Schizophrenia.
+[Protagonist] has sudden reason to doubt [ProtagonistGenderPos] {senses,sanity}.;;37C;
+
