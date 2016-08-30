@@ -29,4 +29,10 @@ The steps of the story---the chapters or scenes or whatever, however you're writ
 
 The filter (hopefully) makes it easier to scale the storytelling, from six basic candidate steps on up.
 
+### `sit.csv`
+
+This is the big deal, the core data that turns _AutoStory_ into something more worthwhile than just a description of the Hero's Journey.  The Dramatic Situations (adapted from Polti's book) each include a descriptive template, a challenge description, and a situation code referring to Polti's text.
+
+The situations are a work in progress.  Despite the title of the book, there are _hundreds_ of dramatic situations listed, and they're each described (of course) in prose.  Many are also described in a "classic form" that assumes romantic or military relationships.  So, much of the work involved in specifying the situations involves bowlderizing/generalizing the situations to embrace a world where Platonic relationships and not murdering people are routine.
+
 
