@@ -35,4 +35,8 @@ This is the big deal, the core data that turns _AutoStory_ into something more w
 
 The situations are a work in progress.  Despite the title of the book, there are _hundreds_ of dramatic situations listed, and they're each described (of course) in prose.  Many are also described in a "classic form" that assumes romantic or military relationships.  So, much of the work involved in specifying the situations involves bowlderizing/generalizing the situations to embrace a world where Platonic relationships and not murdering people are routine.
 
+#### Templates
+
+The template strings turns Polti's phrases like "Fugitives imploring the powerful for help against their enemies" (1-A1) into variations based on the relationships between character archetypes (for example, __Protagonist__, __Antagonist__, __Sidekick__) and naming those archetypes in square-brackets, in addition to providing alternative interpretations in squiggly-braces.  So, we might end up with "`[Sidekick] is a fugitive asking [Antagonist] for {sanctuary from,help against} a common enemy confused with [Protagonist].`"
+
 
