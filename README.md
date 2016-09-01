@@ -39,4 +39,10 @@ The situations are a work in progress.  Despite the title of the book, there are
 
 The template strings turns Polti's phrases like "Fugitives imploring the powerful for help against their enemies" (1-A1) into variations based on the relationships between character archetypes (for example, __Protagonist__, __Antagonist__, __Sidekick__) and naming those archetypes in square-brackets, in addition to providing alternative interpretations in squiggly-braces.  So, we might end up with "`[Sidekick] is a fugitive asking [Antagonist] for {sanctuary from,help against} a common enemy confused with [Protagonist].`"
 
+#### Challenge
+
+The challenge string names one or two character archetypes listed in the _template_ described above (separated by a slash---"`/`"---if two) followed by a challenge level (separated from the archetype by an underscore character---"`_`").  _AutoStory_ uses that information, combined with the _strength_ of the character described in its entry, to determine whether the active character should ultimately succeed in the challenge and to what degree.
+
+A typical challenge description might look like `Antagonist_7` (the character acting as the antagonist performs a difficult action with no opposition from other characters) or `Sidekick_6/Protagonist_3`, describing a situation where the characters acting as the sidekick and protagonist are at odds, and the sidekick has the greater obstacle to overcome.
+
 
