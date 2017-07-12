@@ -7,7 +7,7 @@ A long while ago, I discovered Georges Polti's [The Thirty-Six Dramatic Situatio
 
 Therefore, the premise was to take a common plot structure---here, an adaptation of the [Hero's Journey](https://en.wikipedia.org/wiki/Hero%27s_journey)---as an outline and plug in one of the Dramatic Situations for each element, suggesting a character in each role.
 
-If this is of interest, you may also want to check in on the work (which will probably eventually absorb this) on [procedural storytelling](https://github.com/jcolag/ProceduralStories) in general.
+If this repository is of interest, you may also want to check in on the work (which will probably eventually absorb this) on [procedural storytelling](https://github.com/jcolag/ProceduralStories) in general.
 
 ## The Data Files
 
